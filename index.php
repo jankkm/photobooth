@@ -24,10 +24,10 @@ require_once('db.php');
 
 		<!-- Start Page -->
 		<div class="stages" id="start">
-			<a class="gallery btn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
+			<a class="gallery btn" id="gallerybtn" href="#"><i class="fa fa-th"></i> <span data-l10n="gallery"></span></a>
 			<div class="blurred">
 			</div>
-			<div class="inner">
+			<div class="inner" id="innerxy">
 				<div class="names"><hr class="small" /><hr><div data-l10n="startScreen"></div><hr><hr class="small" /></div>
 				<a href="#" class="btn takePic"><i class="fa fa-camera"></i> <span data-l10n="takePhoto"></span></a>
 			</div>
